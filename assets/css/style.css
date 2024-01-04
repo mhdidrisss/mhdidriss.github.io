@@ -17,6 +17,32 @@ body {
   background: transparent;
 }
 
+/* style.css */
+.about-me.container.rounded-4 {
+  background-color: rgba(36, 36, 36, 0.5); /* Warna kuning dengan tingkat transparansi 0.5 */
+  position: relative;
+  top: 20px;
+  left: 10px;
+  opacity: 0.7; /* Sesuaikan nilai opacity sesuai kebutuhan Anda */
+}
+
+.counts.container.rounded-2 {
+  background-color:  rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 20px;
+  left: 10px;
+  opacity: 0.7;
+}
+
+.count-box.rounded-3{
+  background-color:  rgba(74, 204, 255, 0.5);
+  position: relative;
+  top: 1%;
+  left: 1%;
+  opacity: 10;
+}
+
+
 body::before {
   content: "";
   position: fixed;
